@@ -11,10 +11,12 @@
     text-align: center;
     font-family: 'DM Sans', sans-serif;
 }
-.body p{
+/* .body p{
     font-size: 1.5rem;
     margin-top: 12px;
-}
+   
+} */
+
 
 .body .super{
     color:  #72DB73;
@@ -22,11 +24,15 @@
     margin-bottom: 15px;
     font-family: 'Single Day', cursive;
 }
+form{
+    box-sizing: border-box;
+    position: relative;
+}
 
 form input{
     display: block;
-    margin: 16px auto;
-    padding: 12px;
+    margin: 14px auto;
+    padding: 10px;
     width: 70%;
     background-color:#292929;
     border: none;
@@ -46,6 +52,14 @@ form label input{
     margin: 0px;
     padding: 0px;
     width: 24px;
+}
+
+form p{
+    visibility: visible;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
 }
 
 form button{
